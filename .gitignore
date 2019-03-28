@@ -1,14 +1,14 @@
-/target/
-!.mvn/wrapper/maven-wrapper.jar
+target/
+.mvn/
+
+application-*.yml
 
 ### STS ###
-.apt_generated
 .classpath
 .factorypath
 .project
 .settings
 .springBeans
-.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -17,12 +17,18 @@
 *.ipr
 
 ### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-/build/
+nbproject/private/
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
 
-### VS Code ###
-.vscode/
+gradle
+.gradle/
+gradlew
+
+### Application ###
+backup-temp/
+mocks-prod
+fake-api-data
